@@ -7,4 +7,29 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'student-registration-app';
+
+
+ student = {
+    name: '',
+    age: null,
+    email: '',
+    course: ''
+  };
+
+  students: any[] = [];
+
+  registerStudent() {
+    if (this.student.name && this.student.age && this.student.email && this.student.course) {
+      this.students.push({ ...this.student });
+      this.resetForm();
+    }
+  }
+
+  deleteStudent(index: number) {
+    this.students.splice(index, 1);
+  }
+
+  resetForm() {
+    this.student = { name: '', age: null, email: '', course: '' };
+  }
 }
