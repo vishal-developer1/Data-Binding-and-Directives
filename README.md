@@ -25,13 +25,15 @@ A simple Angular application to register students via a form and display them in
 
 - Angular
 - TypeScript
-- HTML & CSS 
+- HTML & CSS
 
 ---
 
 ## ⚙️ Setup & Run Locally
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/student-registration-app.git
 cd student-registration-app
+```
