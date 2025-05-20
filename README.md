@@ -17,7 +17,7 @@ A simple Angular application to register students via a form and display them in
 
 ## 📸 Screenshot
 
-![Student Registration Screenshot](assets/screenshot.png)
+![Student Registration Screenshot](src/assets/screenshot.png)
 
 ---
 
