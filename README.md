@@ -34,6 +34,6 @@ A simple Angular application to register students via a form and display them in
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/student-registration-app.git
+git clone https://github.com/vishal-developer1/Data-Binding-and-Directives.git
 cd student-registration-app
 ```
